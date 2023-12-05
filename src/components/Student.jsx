@@ -17,6 +17,8 @@ import Stillshots from "./Stillshots";
 import image_cross from "../images/Personal_Preferences_Cross.png";
 import ratings_student from "../images/Personal_Preferences_Ratings.png";
 
+import { useLayoutEffect } from "react";
+
 const markdown = `
 # How to get started
 1. Head to the url your administrator provided you and create an account. When doing so, you will be prompted with various questions asking you to fill out your name, your univeristy, your email, your interests / preferences in courses, and a short bio about yourself. Note that the more keywords and useful descriptions you give in your bio will help our model best match you to the right professor. 
@@ -60,6 +62,10 @@ const Student = () => {
       text: "Tell us your major and rank what is most important for your success in the classroom and get a personalized list of professors who most closely match your preferences",
     },
   ]);
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   return (
     <div>

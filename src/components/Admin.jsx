@@ -12,6 +12,8 @@ import Accordian from "./Accordian";
 import Tutorial from "./Tutorial";
 import Stillshots from "./Stillshots";
 
+import { useLayoutEffect } from "react";
+
 const markdown = `
   # Teachers
 
@@ -85,6 +87,10 @@ const Admin = () => {
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac sodales nibh, eu ullamcorper orci. Pellentesque suscipit blandit posuere. Cras interdum tellus non eleifend pretium. Phasellus urna diam, feugiat nec ex vel, molestie bibendum ligula. Pellentesque luctus eget enim eget egestas. Nulla eu risus id quam luctus molestie.",
     },
   ];
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   return (
     <div>

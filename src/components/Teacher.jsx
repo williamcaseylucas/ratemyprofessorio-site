@@ -16,6 +16,8 @@ import Stillshots from "./Stillshots";
 import student_ratings from "../images/Personal_Preferences_Ratings.png";
 import teacher_ratings from "../images/Personal_Preferences_Teacher.png";
 
+import { useLayoutEffect } from "react";
+
 const Teacher = () => {
   const [cards, setCards] = useState([
     {
@@ -63,6 +65,10 @@ When you see which recommendations your name was listed in, you can see exactly 
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac sodales nibh, eu ullamcorper orci. Pellentesque suscipit blandit posuere. Cras interdum tellus non eleifend pretium. Phasellus urna diam, feugiat nec ex vel, molestie bibendum ligula. Pellentesque luctus eget enim eget egestas. Nulla eu risus id quam luctus molestie.",
     },
   ];
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   return (
     <div>
