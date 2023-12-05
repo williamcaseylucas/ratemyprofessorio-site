@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ratemyprofessorio-site/static/css/main.a91dc46d.css",
-    "main.js": "/ratemyprofessorio-site/static/js/main.843e6f24.js",
+    "main.css": "/ratemyprofessorio-site/static/css/main.8b745a33.css",
+    "main.js": "/ratemyprofessorio-site/static/js/main.5b90b180.js",
     "static/media/boy_and_girl_blue.png": "/ratemyprofessorio-site/static/media/boy_and_girl_blue.91be757b54f55eb094cf.png",
     "static/media/teacher_features.png": "/ratemyprofessorio-site/static/media/teacher_features.0a3eacba3f36fbb19c92.png",
     "static/media/student_features.png": "/ratemyprofessorio-site/static/media/student_features.3371ffcda3fcbc85a70e.png",
@@ -14,15 +14,18 @@
     "static/media/pose_33.png": "/ratemyprofessorio-site/static/media/pose_33.a3af83c10d02c6e8bc4a.png",
     "static/media/boy_girl_collab.png": "/ratemyprofessorio-site/static/media/boy_girl_collab.6ce412ff1d1c7e8bc554.png",
     "static/media/teacher_board.png": "/ratemyprofessorio-site/static/media/teacher_board.78c4f5e3960dad12ebd7.png",
+    "static/media/Personal_Preferences_Teacher.png": "/ratemyprofessorio-site/static/media/Personal_Preferences_Teacher.7180f87a38f951ed43c9.png",
+    "static/media/Personal_Preferences_Cross.png": "/ratemyprofessorio-site/static/media/Personal_Preferences_Cross.3a778159630729a90fa8.png",
+    "static/media/Personal_Preferences_Ratings.png": "/ratemyprofessorio-site/static/media/Personal_Preferences_Ratings.ef89efd7dd401f34a098.png",
     "static/media/admin_faq.png": "/ratemyprofessorio-site/static/media/admin_faq.0e07ebd705e5c7258c42.png",
     "static/media/teacher_faq.png": "/ratemyprofessorio-site/static/media/teacher_faq.7c6c3ff7c7effa4ae91d.png",
     "static/media/student_faq.png": "/ratemyprofessorio-site/static/media/student_faq.3f20e7c9ef3bc0586bc5.png",
     "index.html": "/ratemyprofessorio-site/index.html",
-    "main.a91dc46d.css.map": "/ratemyprofessorio-site/static/css/main.a91dc46d.css.map",
-    "main.843e6f24.js.map": "/ratemyprofessorio-site/static/js/main.843e6f24.js.map"
+    "main.8b745a33.css.map": "/ratemyprofessorio-site/static/css/main.8b745a33.css.map",
+    "main.5b90b180.js.map": "/ratemyprofessorio-site/static/js/main.5b90b180.js.map"
   },
   "entrypoints": [
-    "static/css/main.a91dc46d.css",
-    "static/js/main.843e6f24.js"
+    "static/css/main.8b745a33.css",
+    "static/js/main.5b90b180.js"
   ]
 }
