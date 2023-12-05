@@ -13,6 +13,8 @@ import background from "../images/hero.jpg";
 import admins from "../images/business_idea.png";
 import Info from "./Info";
 
+// "homepage": "https://github.gatech.edu/pages/wrunyon3/lmc-react-website/"
+
 const Main = () => {
   const [cards, setCards] = useState([
     {
