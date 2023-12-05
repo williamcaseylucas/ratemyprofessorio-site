@@ -3,11 +3,6 @@ import Markdown from "react-markdown";
 import { Link } from "react-router-dom";
 
 const User = ({ header, image, text, link, index, buttonActive }) => {
-  console.log("header", header);
-  console.log("image", image);
-  console.log("text", text);
-  console.log("link", link);
-  console.log("index", index);
   return (
     <div className={`flex ${index % 2 ? "flex-row" : "flex-row-reverse"} p-8`}>
       <div id="left" className="w-[50%] m-4 p-8 ">
@@ -17,7 +12,7 @@ const User = ({ header, image, text, link, index, buttonActive }) => {
           <>
             <div className="w-full mx-auto mt-8 flex items-center justify-center">
               <Link
-                className="p-5 w-[30%] bg-cyan-700 text-white rounded-lg shadow-xl text-center text-2xl font-semibold"
+                className="p-5 min-w-[30%] bg-cyan-700 text-white rounded-lg shadow-xl text-center text-2xl font-semibold"
                 to={link}
                 onClick={(event) => {
                   console.log("clicked!", link);

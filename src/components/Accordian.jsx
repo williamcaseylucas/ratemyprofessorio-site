@@ -32,8 +32,8 @@ const AccordianItem = ({ header, text, open, toggle }) => {
   );
 };
 
-const Accordian = (props) => {
-  const questions = Object.values(props);
+const Accordian = ({ questions }) => {
+  // const questions = Object.values(props);
 
   const toggle = (index) => {
     if (open === index) {
@@ -45,17 +45,19 @@ const Accordian = (props) => {
 
   const [open, setOpen] = useState(-1);
   return (
-    <div className="w-full p-4 min-h-[30rem]  flex flex-col items-center justify-evenly mb-[2rem]">
-      <h1 className="text-6xl mb-8 mt-2">FAQ</h1>
-      <div className="outline outline-blue-300 rounded-lg">
-        {questions.map((item, idx) => (
-          <AccordianItem
-            key={idx}
-            {...item}
-            open={idx === open}
-            toggle={() => toggle(idx)}
-          />
-        ))}
+    <div className="w-full flex items-center justify-center">
+      <div className="max-w-3xl p-4 min-h-[30rem]  flex flex-col items-center justify-evenly mb-[2rem]">
+        <h1 className="text-6xl mb-8 mt-2">FAQ</h1>
+        <div className="outline outline-blue-300 rounded-lg">
+          {questions.map((item, idx) => (
+            <AccordianItem
+              key={idx}
+              {...item}
+              open={idx === open}
+              toggle={() => toggle(idx)}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

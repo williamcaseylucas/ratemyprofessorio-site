@@ -10,6 +10,7 @@ import admin_setup from "../images/admin_setup.png";
 import admin_faq from "../images/admin_faq.png";
 import Accordian from "./Accordian";
 import Tutorial from "./Tutorial";
+import Stillshots from "./Stillshots";
 
 const markdown = `
   # Teachers
@@ -30,14 +31,13 @@ For this project, you will have to reach out to a software engineer who is famil
 
 Use Streamlit to create the frontend for this product. In particular, each user will need to create an account with RateMyProfessorIO and will need to sign in before being able to use the platform. Details on how to create unique user accounts can be found here: 
 
-https://blog.streamlit.io/streamlit-authenticator-part-1-adding-an-authentication-component-to-your-app/. 
+[Create unique user accounts](https://blog.streamlit.io/streamlit-authenticator-part-1-adding-an-authentication-component-to-your-app/)
 
 Next, create a custom page based on whether the user is a student or professor. Streamlit offers markdown functionality which means writing textual information with images, latex, and code can be neatly formatted here. See the student and teacher pages to see examples of how the template should be created. 
 
 See this page for details on how to use streamlit to create dynamic calendars, images, metrics, and much more:
 
-https://docs.streamlit.io/library/api-reference
-
+[Streamlit API](https://docs.streamlit.io/library/api-reference)
 ## Backend
 
 This database can be setup with a technology stack called FastAPI. FastAPI toutes being one of the fastest api’s out on the market today, and it is lightweight enough to enable writing endpoint routes that are succinct and concise. Note that it’s important that we are using a framework like FastAPI because it is written in Python, which means integrating with our natural language processing model will be more seamless as it is also written in Python. 
@@ -62,34 +62,27 @@ const Admin = () => {
     },
   ]);
 
-  // {
-  //     header: "Overview",
-  //     image: students_by_table,
-  //     text: "Implement RateMyProfessorIO to encourage your academic community to take a more active part in their educator selection",
-  //     markdown: markdown,
-  //   },
-
   const questions = [
     {
       header: "How do I get RateMyProfessorIO for my school or district?",
-      text: "Sample Answer",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac sodales nibh, eu ullamcorper orci. Pellentesque suscipit blandit posuere. Cras interdum tellus non eleifend pretium. Phasellus urna diam, feugiat nec ex vel, molestie bibendum ligula. Pellentesque luctus eget enim eget egestas. Nulla eu risus id quam luctus molestie.",
     },
     {
       header: "What are the benefits of using RateMyProfessorIO?",
-      text: "Sample Answer",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac sodales nibh, eu ullamcorper orci. Pellentesque suscipit blandit posuere. Cras interdum tellus non eleifend pretium. Phasellus urna diam, feugiat nec ex vel, molestie bibendum ligula. Pellentesque luctus eget enim eget egestas. Nulla eu risus id quam luctus molestie.",
     },
     {
       header: "What are the system requirements for RateMyProfessorIO",
-      text: "Sample Answer",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac sodales nibh, eu ullamcorper orci. Pellentesque suscipit blandit posuere. Cras interdum tellus non eleifend pretium. Phasellus urna diam, feugiat nec ex vel, molestie bibendum ligula. Pellentesque luctus eget enim eget egestas. Nulla eu risus id quam luctus molestie.",
     },
     {
       header:
         "I'm having trouble setting up RateMyProfessorIO. What should I do?",
-      text: "Sample Answer",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac sodales nibh, eu ullamcorper orci. Pellentesque suscipit blandit posuere. Cras interdum tellus non eleifend pretium. Phasellus urna diam, feugiat nec ex vel, molestie bibendum ligula. Pellentesque luctus eget enim eget egestas. Nulla eu risus id quam luctus molestie.",
     },
     {
       header: "Can I contact the developers of RateMyProfessorIO for support?",
-      text: "Sample Answer",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac sodales nibh, eu ullamcorper orci. Pellentesque suscipit blandit posuere. Cras interdum tellus non eleifend pretium. Phasellus urna diam, feugiat nec ex vel, molestie bibendum ligula. Pellentesque luctus eget enim eget egestas. Nulla eu risus id quam luctus molestie.",
     },
   ];
 
@@ -109,7 +102,7 @@ const Admin = () => {
         );
       })}
       <Divider />
-      <Accordian {...questions} />
+      <Accordian questions={questions} />
       <Footer />
     </div>
   );

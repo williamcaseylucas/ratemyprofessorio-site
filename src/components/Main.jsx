@@ -40,7 +40,7 @@ const Main = () => {
     <div className="w-full">
       <div className="w-full h-[75%] flex flex-col">
         <div
-          className="h-[40rem] bg-center relative bg-no-repeat bg-cover bg-blend-overlay bg-fixed  bg-black/50"
+          className="h-[40rem] bg-center relative bg-no-repeat bg-cover object-center bg-blend-overlay bg-fixed  bg-black/50"
           style={{ backgroundImage: `url(${background})` }}
         >
           <Navbar page="home" />
