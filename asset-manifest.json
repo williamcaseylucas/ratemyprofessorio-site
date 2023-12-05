@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/pages/wrunyon3/lmc-react-website/static/css/main.a91dc46d.css",
+    "main.js": "/pages/wrunyon3/lmc-react-website/static/js/main.bea8ebd5.js",
+    "static/media/boy_and_girl_blue.png": "/pages/wrunyon3/lmc-react-website/static/media/boy_and_girl_blue.91be757b54f55eb094cf.png",
+    "static/media/teacher_features.png": "/pages/wrunyon3/lmc-react-website/static/media/teacher_features.0a3eacba3f36fbb19c92.png",
+    "static/media/student_features.png": "/pages/wrunyon3/lmc-react-website/static/media/student_features.3371ffcda3fcbc85a70e.png",
+    "static/media/hero.jpg": "/pages/wrunyon3/lmc-react-website/static/media/hero.462cdc4d294a3c7805aa.jpg",
+    "static/media/admin_setup.png": "/pages/wrunyon3/lmc-react-website/static/media/admin_setup.b7e081dce78af541b459.png",
+    "static/media/business_idea.png": "/pages/wrunyon3/lmc-react-website/static/media/business_idea.d781043671d252a4c4be.png",
+    "static/media/professor_coffee.png": "/pages/wrunyon3/lmc-react-website/static/media/professor_coffee.2c7747e6db327abafe36.png",
+    "static/media/student_computer.png": "/pages/wrunyon3/lmc-react-website/static/media/student_computer.5daee9fdd252af7b8485.png",
+    "static/media/students_by_table.png": "/pages/wrunyon3/lmc-react-website/static/media/students_by_table.d4fd607fad90749e5b72.png",
+    "static/media/pose_33.png": "/pages/wrunyon3/lmc-react-website/static/media/pose_33.a3af83c10d02c6e8bc4a.png",
+    "static/media/boy_girl_collab.png": "/pages/wrunyon3/lmc-react-website/static/media/boy_girl_collab.6ce412ff1d1c7e8bc554.png",
+    "static/media/teacher_board.png": "/pages/wrunyon3/lmc-react-website/static/media/teacher_board.78c4f5e3960dad12ebd7.png",
+    "static/media/admin_faq.png": "/pages/wrunyon3/lmc-react-website/static/media/admin_faq.0e07ebd705e5c7258c42.png",
+    "static/media/teacher_faq.png": "/pages/wrunyon3/lmc-react-website/static/media/teacher_faq.7c6c3ff7c7effa4ae91d.png",
+    "static/media/student_faq.png": "/pages/wrunyon3/lmc-react-website/static/media/student_faq.3f20e7c9ef3bc0586bc5.png",
+    "index.html": "/pages/wrunyon3/lmc-react-website/index.html",
+    "main.a91dc46d.css.map": "/pages/wrunyon3/lmc-react-website/static/css/main.a91dc46d.css.map",
+    "main.bea8ebd5.js.map": "/pages/wrunyon3/lmc-react-website/static/js/main.bea8ebd5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a91dc46d.css",
+    "static/js/main.bea8ebd5.js"
+  ]
+}
