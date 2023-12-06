@@ -60,6 +60,7 @@ const Main = () => {
           </div>
         </div>
       </div>
+
       <Overview />
 
       <Info />
@@ -72,6 +73,7 @@ const Main = () => {
           </>
         );
       })}
+
       <Footer />
     </div>
   );

@@ -2,7 +2,7 @@ const Stillshots = ({ image1, image2 }) => {
   console.log("image1", image1);
   console.log("image2", image2);
   return (
-    <div className="w-full">
+    <div className="max-w-8xl mx-auto">
       <h1 className="text-6xl text-center mb-6">Screenshots</h1>
       <div className="p-5 gap-5 flex justify-between">
         <div className="" id="left">
