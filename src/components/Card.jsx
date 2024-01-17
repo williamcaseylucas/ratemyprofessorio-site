@@ -1,6 +1,6 @@
 const Card = ({ image, title, text }) => {
   return (
-    <div className="min-w-[12rem] max-w-[20rem] rounded-md outline outline-slate-500 p-5 m-3">
+    <div className="min-w-[12rem] w-full rounded-md outline outline-slate-500 p-5 m-3">
       <svg
         className="text-violet-600 font-bold mb-4"
         xmlns="http://www.w3.org/2000/svg"
