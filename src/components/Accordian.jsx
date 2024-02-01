@@ -2,7 +2,10 @@ import { useState } from "react";
 
 const AccordianItem = ({ header, text, open, toggle }) => {
   return (
-    <div className="p-3 m-3 cursor-pointer select-none" onClick={toggle}>
+    <div
+      className="p-3 m-3 cursor-pointer select-none max-w-[50rem]"
+      onClick={toggle}
+    >
       <div className="flex justify-between items-center w-[48rem]">
         <h1 className="text-2xl mb-2">{header}</h1>
         {/* toggle arrow up or down */}
