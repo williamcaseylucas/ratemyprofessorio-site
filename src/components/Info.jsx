@@ -54,7 +54,10 @@ const Info = () => {
         <h1 className="text-6xl font-bold mb-6">
           Why <span className="text-violet-600">does this matter?</span>
         </h1>
-        <div id="cards" className="flex gap-6">
+        <div
+          id="cards"
+          className="flex gap-6 max-w-8xl items-center justify-center"
+        >
           {cards.map((item, idx) => (
             <Card {...item} />
           ))}
