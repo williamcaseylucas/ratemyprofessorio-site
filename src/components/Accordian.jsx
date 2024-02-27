@@ -49,7 +49,7 @@ const Accordian = ({ questions }) => {
   const [open, setOpen] = useState(-1);
   return (
     <div className="w-full flex items-center justify-center">
-      <div className="min-w-3xl p-4 min-h-[30rem]  flex flex-col items-center justify-evenly mb-[2rem]">
+      <div className="w-full max-w-3xl p-4 min-h-[30rem]  flex flex-col items-center justify-evenly mb-[2rem]">
         <h1 className="text-6xl mb-8 mt-2">FAQ</h1>
         <div className="outline outline-blue-300 rounded-lg">
           {questions.map((item, idx) => (
