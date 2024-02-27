@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ratemyprofessorio-site/static/css/main.97702c8f.css",
-    "main.js": "/ratemyprofessorio-site/static/js/main.07c4cb13.js",
+    "main.css": "/ratemyprofessorio-site/static/css/main.f2259eac.css",
+    "main.js": "/ratemyprofessorio-site/static/js/main.e6b04674.js",
     "static/media/boy_and_girl_blue.png": "/ratemyprofessorio-site/static/media/boy_and_girl_blue.91be757b54f55eb094cf.png",
     "static/media/teacher_features.png": "/ratemyprofessorio-site/static/media/teacher_features.0a3eacba3f36fbb19c92.png",
     "static/media/student_features.png": "/ratemyprofessorio-site/static/media/student_features.3371ffcda3fcbc85a70e.png",
@@ -21,11 +21,11 @@
     "static/media/teacher_faq.png": "/ratemyprofessorio-site/static/media/teacher_faq.7c6c3ff7c7effa4ae91d.png",
     "static/media/student_faq.png": "/ratemyprofessorio-site/static/media/student_faq.3f20e7c9ef3bc0586bc5.png",
     "index.html": "/ratemyprofessorio-site/index.html",
-    "main.97702c8f.css.map": "/ratemyprofessorio-site/static/css/main.97702c8f.css.map",
-    "main.07c4cb13.js.map": "/ratemyprofessorio-site/static/js/main.07c4cb13.js.map"
+    "main.f2259eac.css.map": "/ratemyprofessorio-site/static/css/main.f2259eac.css.map",
+    "main.e6b04674.js.map": "/ratemyprofessorio-site/static/js/main.e6b04674.js.map"
   },
   "entrypoints": [
-    "static/css/main.97702c8f.css",
-    "static/js/main.07c4cb13.js"
+    "static/css/main.f2259eac.css",
+    "static/js/main.e6b04674.js"
   ]
 }
